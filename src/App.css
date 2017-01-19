@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e67e22;
+}
+
+h1 {
+  color: #fff;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+h4 {
+  color: #e67e22;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.list-group-item {
+  background-color: #EEEEEE;
+  padding: 7px 8px 3px 8px;
+}
+
+.btn {
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+
+.item-num {
+  width: 30px;
+  text-align: right;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #e67e22;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.7s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
