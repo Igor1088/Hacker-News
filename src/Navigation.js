@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router';
+import NavLink from './NavLink';
 
 const Navigation = (props) => {
   return (
     <nav className="navbar navbar-default">
       <ul className="nav navbar-nav">
-        <li><Link to="/">home</Link></li>
-        <li><Link to="/new">new</Link></li>
-        <li><Link to="/show">show</Link></li>
-        <li><Link to="/ask">ask</Link></li>
-        <li><Link to="/jobs">jobs</Link></li>
+        <li><NavLink to="/" onlyActiveOnIndex={true}>home</NavLink></li>
+        <li><NavLink to="/new">new</NavLink></li>
+        <li><NavLink to="/show">show</NavLink></li>
+        <li><NavLink to="/ask">ask</NavLink></li>
+        <li><NavLink to="/jobs">jobs</NavLink></li>
       </ul>
     </nav>
   );
